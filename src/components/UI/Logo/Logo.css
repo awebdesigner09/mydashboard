@@ -1,0 +1,23 @@
+.Logo{
+    font-weight: 500;
+    font-size: 1.125rem;
+    padding: 1.15rem 1.5rem;
+    display: block;
+    text-align: center;
+    color: #fff;
+}
+
+.Logo a{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    color:white;
+    vertical-align: middle!important;
+    margin-right: 1rem!important;
+}
+
+.Logo a img{
+    height: 28px;
+    vertical-align: middle!important;
+    margin-right: 0.25rem!important;
+}

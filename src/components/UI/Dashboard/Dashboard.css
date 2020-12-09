@@ -1,0 +1,9 @@
+.Dashboard{
+    padding: 8px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(280px, 1fr));
+    margin:-10px;
+}
+.Dashboard>* {
+    margin: 10px;
+}

@@ -1,0 +1,19 @@
+.NavLink,.NavLink a{
+    display: block;
+    padding: .425rem 1.625rem;
+    font-weight: 400;
+    transition: color 75ms ease-in-out;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.NavLink a.active,
+.NavLink a:active,
+.NavLink a:hover
+{
+  
+    color: #40A4C8;
+    
+}

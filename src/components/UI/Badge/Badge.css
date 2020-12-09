@@ -1,0 +1,40 @@
+
+.Badge{
+  margin-right: .825rem;
+  font-size: .650rem;
+  padding: .1rem .2rem;
+  font-weight: 600;
+  border-radius: 4px;
+}
+  .Success{
+    background-color: rgba(75,191,115,.175);
+    color: #4bbf73;
+    
+  }
+  .Danger{
+    background-color: rgba(217,83,79,.175);
+    color:#d9534f;
+    
+  }
+
+  
+.ProjectStatus{
+  margin-right: .825rem;
+  font-size: .725rem;
+  padding: .1rem .2rem;
+  font-weight: 525;
+  border-radius: 4px;
+}
+.Red{
+  color: #fff;
+  background-color: #d9534f;
+}
+.Green{
+  color: #fff;
+  background-color: #4bbf73;
+}
+
+.Yellow{
+  color: #fff;
+  background-color: #e5a54b;
+}

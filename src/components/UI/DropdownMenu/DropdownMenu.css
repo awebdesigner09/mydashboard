@@ -1,0 +1,77 @@
+.DropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: .825rem;
+    color: #6c757d;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .2rem;
+}
+.DropdownMenu {
+    top: auto;
+}
+.Dropdown {
+    line-height: 1.4;
+    font-weight: 800;
+   
+    color: #495057;
+   
+    font-size: 1.25rem;
+}
+.Dropdown, .dropleft, .dropright, .dropup {
+    position: relative;
+}
+.FloatRight {
+    float: right!important;
+}
+.Dropdown .DropdownMenu.show {
+    animation-name: dropdownAnimation;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+.DropdownMenu.show {
+    display: block;
+}
+.DropdownMenu {
+    right: 0;
+    left: auto;
+}
+a.DropdownItem {
+    color: #6c757d;
+    text-decoration: none;
+}
+.DropdownItem {
+    transition: background .1s ease-in-out,color .1s ease-in-out;
+}
+.DropdownItem {
+    display: block;
+    width: 100%;
+    padding: .35rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #495057;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.DropdownItem a {
+    cursor: pointer;
+}
+.DropdownItem a {
+    color: #3f80ea;
+    text-decoration: none;
+    background-color: transparent;
+}
